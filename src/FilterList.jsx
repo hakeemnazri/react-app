@@ -8,7 +8,7 @@ function FilterList() {
   const [searchTerm, setSearchTerm] = useState("");
  
   // Filtered list based on the search term
-  const filteredItems = items.filter((item) =>
+  let filteredItems = items.filter((item) =>
     item.toLowerCase().includes(searchTerm.toLowerCase())
   );
  

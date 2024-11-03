@@ -7,6 +7,10 @@ import TodoApp from './TodoApp';
 import CharacterCounter from './CharacterCounter'
 import ShowPasswordToggle from './ShowPasswordToggle'
 import FilterList from './FilterList'
+import ThemeToggle from './ThemeToggle'
+import RegistrationForm from './RegistrationForm'
+import DynamicDropdown from './DynamicDropdown'
+import Quiz from './Quiz'
 
 function App(){
     return(
@@ -19,8 +23,11 @@ function App(){
             {/* <TodoApp /> */}
             {/* <CharacterCounter /> */}
             {/* <ShowPasswordToggle /> */}
-            <FilterList />
-
+            {/* <FilterList /> */}
+            {/* <ThemeToggle/> */}
+            {/* <RegistrationForm /> */}
+            {/* <DynamicDropdown/> */}
+            <Quiz />
         </div>
     )
 }
